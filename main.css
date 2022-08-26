@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all .1s;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    margin: auto;
+}
+
+.info-pokemon{
+    display: grid;
+}
+
+.navbar{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    /*text-transform: lowercase;*/
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #191a19;
+    color: #fefefe;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    justify-self: center;
+}
+
+.home{
+    display: grid;
+    width: 90%;
+    background:#ffffff ;
+    margin: auto;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    align-content: center; 
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 0.5fr;
+}
+
+.profile-photo{
+    margin-top: 10px;
+    margin-left: 2px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    justify-self: center;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.info-profile{
+    display: grid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.surname{
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.phone{
+    font-size: 1.3em;
+    padding-top: 5px;
+}
+
+.maps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.routes{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.after-route{
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.before-route{
+    margin: auto;
+}
